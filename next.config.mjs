@@ -45,7 +45,7 @@ const nextConfig = {
       },
       {
         "source": "/linkedin",
-        "destination": "https://www.linkedin.com/in/NNNNNNNNNNNNNNNNN/",
+        "destination": "https://www.linkedin.com/in/jstar0/",
         "permanent": true
       },
       {
