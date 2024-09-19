@@ -39,7 +39,7 @@ export default function Layout({
                 src={`${emailConfig.baseUrl}/icon.png`}
                 width="24"
                 height="24"
-                alt="Cali"
+                alt="JStar0"
                 className="mx-auto my-0"
               />
               <Text className="text-center">
@@ -47,10 +47,10 @@ export default function Layout({
                   href="https://i.jstar.vip"
                   className="text-zinc-700 underline"
                 >
-                  <strong>Cali Castle</strong>
+                  <strong>JStar0 iMyself</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                计算机科学、学习中、苦旅者、沉静内省，我自己。
               </Text>
               <Text className="text-center">
                 <Link

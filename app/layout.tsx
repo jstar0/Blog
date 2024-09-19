@@ -14,11 +14,11 @@ import { seo } from '~/lib/seo'
 export const metadata: Metadata = {
   metadataBase: seo.url,
   title: {
-    template: '%s | Cali Castle',
+    template: '%s | JStar0 iMyself',
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'Cali,Cali Castle,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'JStar0,JStar0 iMyself,景星,JStar,心纪元,苦旅者,XinEra,内省',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -34,17 +34,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: {
       default: seo.title,
-      template: '%s | Cali Castle',
+      template: '%s | JStar0 iMyself',
     },
     description: seo.description,
-    siteName: 'Cali Castle',
+    siteName: 'JStar0 iMyself',
     locale: 'zh_CN',
     type: 'website',
     url: 'https://i.jstar.vip',
   },
   twitter: {
-    site: '@thecalicastle',
-    creator: '@thecalicastle',
+    site: '@JStar_Y',
+    creator: '@JStar_Y',
     card: 'summary_large_image',
     title: seo.title,
     description: seo.description,

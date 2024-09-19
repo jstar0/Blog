@@ -6,9 +6,9 @@ import { Button, Heading, Hr, Img, Section, Text } from './_components'
 import Layout from './Layout'
 
 const NewGuestbookEmail = ({
-  link = 'https://caliso/guestbook',
-  userFirstName = 'Cali',
-  userLastName = 'Castle',
+  link = 'https://i.jstar.vip/guestbook',
+  userFirstName = 'JStar0',
+  userLastName = 'iMyself',
   userImageUrl = 'https://i.jstar.vip/icon.png',
   commentContent = '*测试评论*\n- Wow wtf\n- Cool',
 }: {
