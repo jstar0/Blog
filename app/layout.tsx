@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: 'Cali Castle',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://i.jstar.vip',
   },
   twitter: {
     site: '@thecalicastle',
