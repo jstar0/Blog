@@ -30,7 +30,8 @@ const client = z.object({
  * @type {Record<keyof z.infer<typeof server> | keyof z.infer<typeof client>, string | undefined>}
  */
 const processEnv = {
-  NODE_ENV: process.env.NODE_ENV,
+  //NODE_ENV: process.env.NODE_ENV,
+  NODE_ENV: "production",
   DATABASE_URL: process.env.DATABASE_URL,
   RESEND_API_KEY: process.env.RESEND_API_KEY,
   VERCEL_ENV: process.env.VERCEL_ENV,
