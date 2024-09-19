@@ -13,13 +13,13 @@ function getKey(url: string) {
 
 const faviconMapper: { [key: string]: string } = {
   '((?:zolplay.cn)|(?:zolplay.com)|(?:cn.zolplay.com))':
-    'https://cali.so/favicons/zolplay.png',
-  '(?:github.com)': 'https://cali.so/favicons/github.png',
+    'https://i.jstar.vip/favicons/zolplay.png',
+  '(?:github.com)': 'https://i.jstar.vip/favicons/github.png',
   '((?:t.co)|(?:twitter.com)|(?:x.com))':
-    'https://cali.so/favicons/twitter.png',
-  'coolshell.cn': 'https://cali.so/favicons/coolshell.png',
-  'vercel.com': 'https://cali.so/favicons/vercel.png',
-  'nextjs.org': 'https://cali.so/favicons/nextjs.png',
+    'https://i.jstar.vip/favicons/twitter.png',
+  'coolshell.cn': 'https://i.jstar.vip/favicons/coolshell.png',
+  'vercel.com': 'https://i.jstar.vip/favicons/vercel.png',
+  'nextjs.org': 'https://i.jstar.vip/favicons/nextjs.png',
 }
 
 function getPredefinedIconForUrl(url: string): string | undefined {
@@ -63,7 +63,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.error()
   }
 
-  let iconUrl = 'https://cali.so/favicon_blank.png'
+  let iconUrl = 'https://i.jstar.vip/favicon_blank.png'
 
   try {
     const predefinedIcon = getPredefinedIconForUrl(url)
