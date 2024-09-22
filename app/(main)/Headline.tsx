@@ -80,7 +80,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 JStar0
+          我是 JStar0, 也是
           <PeekabooLink href="https://www.mcxin.top">心纪元</PeekabooLink>
           开发者，计科学生。正在接受教育，努力成为一个我自己。
           待噩梦吵醒希望，明天依然有光，这是我平安顺遂的梦想。

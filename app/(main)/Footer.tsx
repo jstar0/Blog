@@ -3,7 +3,8 @@ import Link from 'next/link'
 import React from 'react'
 
 import { CursorClickIcon, UsersIcon } from '~/assets'
-import { PeekabooLink } from '~/components/links/PeekabooLink'
+//import { PeekabooLink } from '~/components/links/PeekabooLink'
+import { RichLink } from '~/components/links/RichLink'
 import { Container } from '~/components/ui/Container'
 import { kvKeys } from '~/config/kv'
 import { navigationItems } from '~/config/nav'
@@ -117,9 +118,9 @@ export async function Footer() {
             <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
               <p className="text-sm text-zinc-500/80 dark:text-zinc-400/80">
                 &copy; {new Date().getFullYear()} JStar0. 开放源代码于
-                <PeekabooLink href="https://github.com/jstar0/iMyself">
+                <RichLink href="https://github.com/jstar0/iMyself">
                   GitHub
-                </PeekabooLink>
+                </RichLink>
               </p>
               <Links />
             </div>
